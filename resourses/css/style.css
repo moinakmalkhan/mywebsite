@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+html{
+    font-family: serif;
+    font-size: 20px;
+    font-weight: 300;
+    color: white;
+    background-color: white
+}
+header{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0,0,0,0.7)), url(img/Imran-khan-666.jpg);
+    height: 100vh;
+    width: auto;
+    background-position: center;
+    background-size: cover
+}
+.hero-text-box{
+    position: absolute;
+    left: 100px;
+    top: 351px
+}
+.pti {
+    font-size: 200%;
+    font-family: sans-serif;
+    font-weight: 200
+}
+/*---------BUTTON----------*/
+
+.btn{
+    text-decoration: none;
+    color: white
+}
+.btn-primary{
+    background-color: #27ae60;
+    border: 1px solid #27ae60;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: serif;
+    margin-right: 50px;
+    transition: background-color 0.3s, border 0.4s
+}
+.btn-primary:hover{
+    background-color: #05c46b;
+    border: 1px solid #05c46b; 
+}
+.btn-secondary{
+    border: 1px solid #27ae60;
+    padding: 10px;
+    border-radius: 20px;
+    font-weight: 200;
+    font-family: serif;
+    transition: background-color 0.3s, border 0.4s
+}
+.btn-secondary:hover{
+    border: 1px solid #05c46b;
+    background-color: #05c46b;
+    
+}
+
+/*---------BUTTON----------*/
+
+
+.logo{
+    width: 12%;
+    height: 12%;
+    float: left;
+    margin-left: 100px;
+    margin-top: 30px
+}
+.command-text-box li{
+    list-style-type: none;
+}
+.command-text-box a{
+    background-color: gainsboro;
+    text-decoration: none;
+    float: right;
+    margin-right: 40px;
+    margin-top: 60px;
+    padding: 10px;
+    border-radius: 20px;
+    color: black
+}
+.command-text-box .active{
+    background:#27ae60  ;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    transition: background-color 1s
+}
+.command-text-box .active:hover{
+    background-color: #05c46b
+}
+section{
+    color: black;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    color: #333333
+}
+
+
+.bor{
+    padding: 1px;
+    line-height: 125%
+}
+
+
+/*-------HEADINGS----------*/
+
+h2{
+    font-weight: 200;
+    font-size: 200%;
+    word-spacing: 2px;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 30px
+}
+h2:after{
+    content: " ";
+    background-color: #27ae60;
+    width: 30%;
+    height: 2px;
+    display: block;
+    margin-top: 30px;
+    margin: auto
+}
+h3{
+    font-weight: 200;
+    font-size: 150%;
+    margin-bottom: 15px
+}
+
+/*-------HEADINGS----------*/
+
+
+/*------PARAGRAPHS---------*/
+
+.mero p{
+    line-height: 145%;
+    font-weight: 300;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 30px
+}
+
+/*------PARAGRAPHS---------*/
+
+
+/*--------ICONS---------*/
+
+ion-icon{
+    font-size: 400%;
+    color: #27ae60;
+    margin-bottom: 15px
+}
+
+/*--------ICONS---------*/
+
+
+.section-images{
+    width: 100%
+}
+.img-unordered{
+    width: 100%;
+    list-style-type: none
+}
+.img-list{
+    width: 25%;
+    float: left;
+    display: block;
+}
+.img-list figure{
+    width: 100%;
+    overflow: hidden;
+    background: black
+}
+.img-list figure img{
+    width: 100%;
+    height: 100%;
+    transform: scale(1.15);
+    transition: transform 0.5s, opacity 0.5s;
+    opacity: 0.7
+}
+.img-list figure img:hover {
+    transform: scale(1);
+    opacity: 1
+}
+
+/*------------------------------*/
+/*app-------------------*/
+/*------------------------------*/
+
+
+.how-to{
+    background-color: #e3e1e1
+}
+.pti-app{
+    width: 100%
+}
+.pti-app img{
+    width: 43%;
+    float: right;
+}
+pti-app img:hover{
+    width: 50%
+}
+.pti-tips{
+    margin-top: 25px
+}
+.pti-tips h6{
+    font-size: 150%;
+    display: inline-block;
+    border: 4px solid #05c46b;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    padding: ;
+    text-align: center;
+    margin-top: 50px
+    
+}
+.android-app{
+    width: 150px;
+    height: auto;
+    margin-top: 50px
+}
+.iphone-app{
+    width: 150px;
+    height: auto;
+    margin-top: 50px 
+}
